@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Courses: All in a Box</title>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+
+        <title>All in a Box</title>
 
         <!-- linking bootstrap -->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- custom CSS -->
+        <link rel="stylesheet" href="style.css">
 
         <!-- linking jQuery -->
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -22,7 +26,7 @@
     <body>
 
         <!-- navbar -->
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
 
                 <!-- logo -->
@@ -56,8 +60,13 @@
             </div>
         </nav>
 
+        <!-- header image -->
+        <div class="banner">
+            <img class="banner-img img-responsive" src="images/banner.jpg" alt="Header image">
+        </div>
+
         <!-- header content -->
-        <div class="content row">
+        <div class="content row text-center">
             <div class="col-md-3 col-sm-2 col-xs-1"></div>
             <div class="col-md-6 col-sm-8 col-xs-10">
                 <h1>Welcome to All in a Box</h1>
@@ -70,17 +79,17 @@
         </div>
 
         <!-- about us section -->
-        <div class="container">
+        <div class="container text-center">
             <h1>About Us</h1>
             <h3>Your efforts to find a course is now much easier!</h3>
             <p>We provide you with a list of courses from popular websites like Coursera, Edx, Udacity, Codecademy and others so that you don't have to worry about searching about courses you want to learn. Most of us want to learn a something everyday, but finding the resource or course to learn it from is a bigger task, we simplify it for you with all the popular courses in one place. So, go ahead, search for your interests, happy learning!</p>
         </div>
 
         <!-- some popular courses section -->
-        <div class="container">
+        <div class="container text-center">
             <h1>Some popular courses</h1>
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4">
                     <img src="images/box.png" alt="Course image">
                     <div>
                         <h4>Course name</h4>
@@ -89,7 +98,7 @@
                         <a href="#" class="btn btn-success">Start learning here!</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4">
                     <img src="images/box.png" alt="Course image">
                     <div>
                         <h4>Course name</h4>
@@ -98,7 +107,7 @@
                         <a href="#" class="btn btn-success">Start learning here!</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4">
                     <img src="images/box.png" alt="Course image">
                     <div>
                         <h4>Course name</h4>
@@ -110,6 +119,15 @@
             </div>
         </div>
 
-
+        <!-- footer -->
+        <div class="container text-center">
+            <h3>Queries? Contact Us</h3>
+            <div class="row">
+                <div class="col-md-4">meghasanthosh438@gmail.com</div>
+                <div class="col-md-4">s.spoorthi.97@gmail.com</div>
+                <div class="col-md-4">sweta191995@gmail.com</div>
+            </div>
+            <p>Made with ♥ by @megha438, @spoorthishivaswamy, @swetakumari95</p>
+        </div>
     </body>
 </html>
