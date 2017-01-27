@@ -1,8 +1,22 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .banner-img{
-    height: 75vh;
+    height: 90vh;
+}
+
+.content{
+    position: absolute;
+    top: 25vh;
+    width: 100%;
+    color: white;
+}
+
+.content input{
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
 }
